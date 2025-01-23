@@ -22,7 +22,7 @@ lscpu
 If the output doesn't show `Architecture: aarch64` or `CPU op-mode(s): 32-bit, 64-bit`, then do not bother to continue. Your phone is not running a 64-bit OS.
 
 ```bash
-curl -o- -k https://raw.githubusercontent.com/RaiderT/VerusCliMining/main/install.sh | bash
+curl -o- -k https://raw.githubusercontent.com/alisa2826/VerusCliMining/main/install.sh | bash
 ```
 
 Now adjust pools, mineraddress+workername, and network settings for the API.
@@ -37,10 +37,10 @@ start mining with `~/ccminer/start.sh`
 Standard SSH port for Userland is port `2022`.
 Optional: create an entry in your SSH config file for each phone:
 ```
-Host Pixel2XL01
-    Hostname 192.168.25.81
+Host redmi8
+    Hostname 100.79.163.163
     Port 2022
-    User Pixel2XL01
+    User redmi8
     IdentityFile ~\.ssh\id-rsa_oink-private
 ```
 
